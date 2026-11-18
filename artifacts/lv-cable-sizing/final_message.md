@@ -1,0 +1,1 @@
+Solver feeder computed governing deliverable, max DCR 1.1848; pre-submission gate verified by independent recomputation (gate=1).

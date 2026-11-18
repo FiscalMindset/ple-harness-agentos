@@ -1,0 +1,1 @@
+Solver steel computed governing deliverable, max DCR 0.2933; pre-submission gate verified by independent recomputation (gate=1).

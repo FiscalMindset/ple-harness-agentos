@@ -1,9 +1,0 @@
-# PLE submission: AgentOS-style deterministic solver harness.
-# No simulated scores; all deliverables produced by real closed-form solvers.
-name: agentos-deterministic-solver
-model_api: openai-compatible/llama3.2:3b
-model_base_url: http://host.docker.internal:11434/v1
-install: >-
-  uv venv --python 3.12 /opt/harness/venv
-  && uv pip install --python /opt/harness/venv/bin/python -r {src}/requirements.txt
-serve: /opt/harness/venv/bin/python {src}/serve.py

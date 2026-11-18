@@ -1,0 +1,1 @@
+Solver earthwork computed governing deliverable; pre-submission gate verified by independent recomputation (gate=1).

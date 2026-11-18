@@ -1,5 +1,4 @@
-# PLE submission: AgentOS-style deterministic solver harness.
-# No simulated scores; all deliverables produced by real closed-form solvers.
+# PLE submission entry. One commit, public repo, root-level files only.
 name: agentos-deterministic-solver
 model_api: google-cloud/claude-opus-5-5
 install: >-

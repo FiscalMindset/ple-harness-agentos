@@ -1,0 +1,6 @@
+{
+  "status": "error",
+  "kind": "unknown",
+  "error": "no deterministic solver for kind='unknown'",
+  "gate": 0
+}

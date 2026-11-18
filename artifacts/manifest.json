@@ -1,0 +1,212 @@
+{
+  "format": 1,
+  "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+  "created": "2026-11-18T20:59:59Z",
+  "harness": {
+    "name": "agentos-deterministic-solver",
+    "model_api": "openai-compatible/llama3.2:3b",
+    "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
+    "files": {
+      "LICENSE": "100644 261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "__pycache__/harness.cpython-313.pyc": "100644 5eda2457922f7c93597c188e9dfcab50e00d10f0",
+      "__pycache__/solvers.cpython-313.pyc": "100644 b8db98e2bf14e1e0f7f5867923265690dc31e154",
+      "harness.py": "100644 de791af72dae0c59bca1dfb6e12b7c7e778fb639",
+      "requirements.txt": "100644 83b1e6d672d3d918e0b01653c27e75f942fde177",
+      "serve.py": "100644 470b39e8123e5b9a5efb9193e56e15b39aeb86e5",
+      "solvers.py": "100644 cc2ce480bee5e7e42cc313d21ec72d360d9bb812",
+      "submission.local.yaml": "100644 2c0348463842334daf4331be95a9baf6631b464e",
+      "submission.yaml": "100644 ca331d5bec0ff1cbd311e31196058198c6b83f29",
+      "taskbridge.py": "100644 26cc3d6cf8dbcaed859731ce9a6881f4ca8bfe40",
+      "test_harness.py": "100644 86d5a9799464ead8338a1ec838a5fda87fbd1d0e",
+      "test_solvers.py": "100644 a57ab16016004db988bdd3a4716da03a39f8aacc"
+    },
+    "commit": null,
+    "dirty": false
+  },
+  "tasks": {
+    "data-hall-mep-routing": {
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+      "run": "batch00l",
+      "trial": "data-hall-mep-routing__P75th6H",
+      "ended": "ok",
+      "reward": 0.0,
+      "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
+      "files": {
+        "app/files/dc_model__hall_seed000_d000__mep_routing/output/solution.py": "56d9e4dab0ba515f6fce2c4da475e97695b0a133"
+      },
+      "final_message": "f683decf1d9a77e548100d6f533a32cb1df49805",
+      "deleted": [],
+      "skipped": []
+    },
+    "data-hall-mep-routing-offset": {
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+      "run": "batch00l",
+      "trial": "data-hall-mep-routing-offset__hSZdMZo",
+      "ended": "ok",
+      "reward": 0.0,
+      "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
+      "files": {},
+      "final_message": "f683decf1d9a77e548100d6f533a32cb1df49805",
+      "deleted": [],
+      "skipped": []
+    },
+    "eor-review-corrections": {
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+      "run": "batch00l",
+      "trial": "eor-review-corrections__zyhPb9X",
+      "ended": "ok",
+      "reward": 0.0,
+      "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
+      "files": {},
+      "final_message": "3b25da80191e0fe9cbbd7b314f7eb788ea695b82",
+      "deleted": [],
+      "skipped": []
+    },
+    "foundation-strategy": {
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+      "run": "batch00l",
+      "trial": "foundation-strategy__b4gahLc",
+      "ended": "ok",
+      "reward": 0.0,
+      "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
+      "files": {},
+      "final_message": "8101fdcf217f9e61422a52e38f4af31379bb04c1",
+      "deleted": [],
+      "skipped": []
+    },
+    "landscape-sheet-revision": {
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+      "run": "batch00l",
+      "trial": "landscape-sheet-revision__RRXAPBz",
+      "ended": "ok",
+      "reward": 0.636364,
+      "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
+      "files": {
+        "app/files/solution.json": "f9c701cb342d49df0c3b6bfc9a094b36b326c05f"
+      },
+      "final_message": "6f350cbcc3436bb1937e8c47558b53a64100c3fa",
+      "deleted": [],
+      "skipped": []
+    },
+    "data-hall-device-takeoff": {
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+      "run": "batch01l",
+      "trial": "data-hall-device-takeoff__6tHTecf",
+      "ended": "ok",
+      "reward": 0.0,
+      "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
+      "files": {},
+      "final_message": "6f350cbcc3436bb1937e8c47558b53a64100c3fa",
+      "deleted": [],
+      "skipped": []
+    },
+    "division-26-specifications": {
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+      "run": "batch01l",
+      "trial": "division-26-specifications__RDEYcoc",
+      "ended": "ok",
+      "reward": 0.0,
+      "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
+      "files": {},
+      "final_message": "f683decf1d9a77e548100d6f533a32cb1df49805",
+      "deleted": [],
+      "skipped": []
+    },
+    "frame-extension-method": {
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+      "run": "batch01l",
+      "trial": "frame-extension-method__eoo2TwC",
+      "ended": "ok",
+      "reward": 0.0,
+      "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
+      "files": {},
+      "final_message": "6f350cbcc3436bb1937e8c47558b53a64100c3fa",
+      "deleted": [],
+      "skipped": []
+    },
+    "heat-rejection-life-cycle-cost": {
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+      "run": "batch01l",
+      "trial": "heat-rejection-life-cycle-cost__a3bCbxM",
+      "ended": "ok",
+      "reward": 0.0,
+      "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
+      "files": {},
+      "final_message": "f683decf1d9a77e548100d6f533a32cb1df49805",
+      "deleted": [],
+      "skipped": []
+    },
+    "mv-conveyance-study": {
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+      "run": "batch01l",
+      "trial": "mv-conveyance-study__rCMYHiK",
+      "ended": "ok",
+      "reward": 0.0,
+      "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
+      "files": {},
+      "final_message": "f683decf1d9a77e548100d6f533a32cb1df49805",
+      "deleted": [],
+      "skipped": []
+    },
+    "cooling-water-flush-plan": {
+      "run": "batch02l",
+      "trial": "cooling-water-flush-plan__NiE5xJ2",
+      "ended": "ok",
+      "reward": 0.0,
+      "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+      "files": {},
+      "final_message": "7692947a31cd0e4e322c61384573f288d735e9a6",
+      "deleted": [],
+      "skipped": []
+    },
+    "lv-cable-sizing": {
+      "run": "batch02l",
+      "trial": "lv-cable-sizing__uJzfM5z",
+      "ended": "ok",
+      "reward": 0.0,
+      "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+      "files": {},
+      "final_message": "f683decf1d9a77e548100d6f533a32cb1df49805",
+      "deleted": [],
+      "skipped": []
+    },
+    "roof-deck-design": {
+      "run": "batch02l",
+      "trial": "roof-deck-design__d8izfeZ",
+      "ended": "ok",
+      "reward": 0.0,
+      "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+      "files": {},
+      "final_message": "8101fdcf217f9e61422a52e38f4af31379bb04c1",
+      "deleted": [],
+      "skipped": []
+    },
+    "seismic-diaphragm-shear": {
+      "run": "batch02l",
+      "trial": "seismic-diaphragm-shear__ybdVf8H",
+      "ended": "ok",
+      "reward": 0.0,
+      "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+      "files": {},
+      "final_message": "8101fdcf217f9e61422a52e38f4af31379bb04c1",
+      "deleted": [],
+      "skipped": []
+    },
+    "wind-diaphragm-shear": {
+      "run": "batch02l",
+      "trial": "wind-diaphragm-shear__ksevmvW",
+      "ended": "ok",
+      "reward": 0.0,
+      "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+      "files": {},
+      "final_message": "8101fdcf217f9e61422a52e38f4af31379bb04c1",
+      "deleted": [],
+      "skipped": []
+    }
+  }
+}
