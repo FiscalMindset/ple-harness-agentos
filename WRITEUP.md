@@ -1,7 +1,7 @@
 # AgentOS-Style Deterministic Solver Harness on PLE
 
 **Project:** https://github.com/FiscalMindset/ple-harness-agentos
-**Commit:** 0ce723e86de0f5070a76023e89f90633a2832645
+**Commit:** efd044a4fa9e7221adb0358edae352242e33c207
 
 ## Headline finding
 
