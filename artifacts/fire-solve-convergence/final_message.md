@@ -1,0 +1,1 @@
+Deterministic solver failed: no deterministic solver for kind='unknown'. No deliverable submitted (gate=0).

@@ -22,12 +22,13 @@ Our harness fails closed. `hard_gate()` recomputes every numeric ratio from the 
 and rejects a report whose claimed `gate=1` disagrees with the recomputation. Three local tests
 prove: a steel deliverable passes, a fabricated `gate=1` with a 1e12 ratio is rejected, and an
 unmapped task (a poem about bridges) writes `gate=0`. Against the real dev set, the measured
-breakdown in Figure 3 is: 15 tasks where a solver ran and the grader rejected its deliverable,
+breakdown in Figure 3 is: 17 tasks where a solver ran and the grader rejected its deliverable,
 one rubric task whose local judge failed after three attempts, one whose grader dependencies
-would not install, and 12 heavy rubric tasks we could not run locally because the Docker images
-exhausted the host disk. Those 12 count 0, exactly as the leaderboard treats unmeasured tasks.
-One task (`landscape-sheet-revision`) did score 0.636 from the local judge — a real, measured
-result, not a simulation.
+would not install, three further heavy tasks whose local result was not classifiable, and 7 heavy
+rubric tasks we could not run locally because their Docker verifier images exhausted the host
+disk. Five heavy tasks did complete, all scoring 0. The 7 unmeasured ones count 0, exactly as the
+leaderboard treats unmeasured tasks. One task (`landscape-sheet-revision`) scored 0.636 from the
+local judge — a real, measured result, not a simulation.
 
 Controlled comparison available: the four deterministic solvers are known-answer tested
 (`test_solvers.py`, 7 tests). They are real AISC 360 / NEC 2023 / Darcy-Weisbach / prismoidal

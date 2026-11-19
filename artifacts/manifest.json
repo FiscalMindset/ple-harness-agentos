@@ -1,7 +1,7 @@
 {
   "format": 1,
   "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
-  "created": "2026-11-18T20:59:59Z",
+  "created": "2026-11-19T00:32:40Z",
   "harness": {
     "name": "agentos-deterministic-solver",
     "model_api": "openai-compatible/llama3.2:3b",
@@ -149,62 +149,90 @@
       "skipped": []
     },
     "cooling-water-flush-plan": {
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
       "run": "batch02l",
       "trial": "cooling-water-flush-plan__NiE5xJ2",
       "ended": "ok",
       "reward": 0.0,
       "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
-      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
       "files": {},
       "final_message": "7692947a31cd0e4e322c61384573f288d735e9a6",
       "deleted": [],
       "skipped": []
     },
     "lv-cable-sizing": {
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
       "run": "batch02l",
       "trial": "lv-cable-sizing__uJzfM5z",
       "ended": "ok",
       "reward": 0.0,
       "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
-      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
       "files": {},
       "final_message": "f683decf1d9a77e548100d6f533a32cb1df49805",
       "deleted": [],
       "skipped": []
     },
     "roof-deck-design": {
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
       "run": "batch02l",
       "trial": "roof-deck-design__d8izfeZ",
       "ended": "ok",
       "reward": 0.0,
       "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
-      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
       "files": {},
       "final_message": "8101fdcf217f9e61422a52e38f4af31379bb04c1",
       "deleted": [],
       "skipped": []
     },
     "seismic-diaphragm-shear": {
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
       "run": "batch02l",
       "trial": "seismic-diaphragm-shear__ybdVf8H",
       "ended": "ok",
       "reward": 0.0,
       "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
-      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
       "files": {},
       "final_message": "8101fdcf217f9e61422a52e38f4af31379bb04c1",
       "deleted": [],
       "skipped": []
     },
     "wind-diaphragm-shear": {
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
       "run": "batch02l",
       "trial": "wind-diaphragm-shear__ksevmvW",
       "ended": "ok",
       "reward": 0.0,
       "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
-      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
       "files": {},
       "final_message": "8101fdcf217f9e61422a52e38f4af31379bb04c1",
+      "deleted": [],
+      "skipped": []
+    },
+    "fire-solve-convergence": {
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+      "run": "batch07h",
+      "trial": "fire-solve-convergence__hFa7Vbz",
+      "ended": "ok",
+      "reward": 0.0,
+      "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
+      "files": {
+        "filesystem/solution.json": "f9c701cb342d49df0c3b6bfc9a094b36b326c05f"
+      },
+      "final_message": "6f350cbcc3436bb1937e8c47558b53a64100c3fa",
+      "deleted": [],
+      "skipped": []
+    },
+    "les-mesh-resolution": {
+      "run": "batch08h",
+      "trial": "les-mesh-resolution__g8bBvzY",
+      "ended": "ok",
+      "reward": 0.0,
+      "tree": "1129543b8273074d176c55529ffecdb2c0f1ddfd2e0ce0baacd49d7911255286",
+      "dev_set": "85ad6d96fbf76ee64d9fb6339b3bf342b07128a2ebadc0a10f008c95dac01a48",
+      "files": {
+        "filesystem/solution.json": "f9c701cb342d49df0c3b6bfc9a094b36b326c05f"
+      },
+      "final_message": "6f350cbcc3436bb1937e8c47558b53a64100c3fa",
       "deleted": [],
       "skipped": []
     }
